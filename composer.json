@@ -17,9 +17,13 @@
       "email": "patrick@maatwebsite.nl"
     }
   ],
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/jtallant/PHPExcel"
+  }],
   "require": {
     "php": ">=5.5",
-    "phpoffice/phpexcel": "^1.8.1",
+    "phpoffice/phpexcel": "dev-php72compat",
     "illuminate/cache": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
     "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
     "illuminate/filesystem": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
